@@ -1,6 +1,6 @@
 ## Bytengine CLI
 
-Shell for **[Bytengine](https://github.com/johnwilson/bytengine "Bytengine")**
+Shell for **[Bytengine](https://github.com/asm-products/bytengine "Bytengine")**
 
 ## Installation
 
@@ -13,11 +13,11 @@ Build Prerequisites:
 Assuming you have set up $GOPATH properly and added $GOPATH/bin to $PATH do the
 following:
 
-1. Get bshell `go get -d github.com/johnwilson/bytengine/cmd/bshell`
+1. Get bshell `go get -d github.com/asm-products/bytengine/cmd/bshell`
 
 2. Get Godep `go get github.com/tools/godep`
 
-3. `cd $GOPATH/src/github.com/johnwilson/bytengine/cmd/bshell`
+3. `cd $GOPATH/src/github.com/asm-products/bytengine/cmd/bshell`
 
 4. Restore dependency versions `godep restore`
 
@@ -27,7 +27,7 @@ following:
 
 ## Quick Guide
 
-Bshell enables you to run **[Bytengine](https://github.com/johnwilson/bytengine/ "Bytengine")** 
+Bshell enables you to run **[Bytengine](https://github.com/asm-products/bytengine/ "Bytengine")** 
 BQL (Bytengine Query Language) scripts and work with the resultset using javascript.
 Let's run through a trivial example to give you and idea how it works.
 

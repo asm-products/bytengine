@@ -2,15 +2,15 @@
 
 <a href="https://assembly.com/bytengine/bounties"><img src="https://asm-badger.herokuapp.com/bytengine/badges/tasks.svg" height="24px" alt="Open Tasks" /></a>
 
-[![BQL](https://github.com/johnwilson/bytengine/raw/master/bql.png)](#bql.snippet)
+[![BQL](https://github.com/asm-products/bytengine/raw/master/bql.png)](#bql.snippet)
 
 ## About
 
-**[Bytengine](https://github.com/johnwilson/bytengine "Bytengine")** is a scalable content 
+**[Bytengine](https://github.com/asm-products/bytengine "Bytengine")** is a scalable content 
 repository built with Go. Its API is accessible from any Http client library so 
 you can start coding in your favorite language!
 
-**[Bytengine](https://github.com/johnwilson/bytengine "Bytengine")** stores your JSON data and 
+**[Bytengine](https://github.com/asm-products/bytengine "Bytengine")** stores your JSON data and 
 digital assets in a pseudo hierarchical file system which you query using it's 
 inbuilt SQL like language.
 
@@ -21,7 +21,7 @@ Some of the server's features are:
 * HTTP based API
 * Bytengine Query language (BQL)
 * Pluggable data storage backends (currently supports Mongodb, Diskv, Redis)
-* Command line interface **[bshell](https://github.com/johnwilson/bytengine/tree/master/cmd/bshell "bshell")**
+* Command line interface **[bshell](https://github.com/asm-products/bytengine/tree/master/cmd/bshell "bshell")**
 
 This is a product being built by the Assembly community. You can help push this idea forward by visiting [https://assembly.com/bytengine](https://assembly.com/bytengine).
 
@@ -63,11 +63,11 @@ Current Build Prerequisites:
 * [Redis](http://redis.io/download/ "Redis")
 * [Go](http://golang.org/doc/install/ "Go")
 
-1. Get Bytengine `go get -d github.com/johnwilson/bytengine/cmd/bytengine`
+1. Get Bytengine `go get -d github.com/asm-products/bytengine/cmd/bytengine`
 
 2. Get Godep `go get github.com/tools/godep`
 
-3. `cd $GOPATH/src/github.com/johnwilson/bytengine/cmd/bytengine`
+3. `cd $GOPATH/src/github.com/asm-products/bytengine/cmd/bytengine`
 
 4. Restore dependency versions `godep restore`
 
@@ -106,7 +106,7 @@ Current Build Prerequisites:
     [u'test']
 ```
 
-#### Using Bytengine Shell **[bshell](http://github.com/johnwilson/bshell/ "bshell")**
+#### Using Bytengine Shell **[bshell](http://github.com/asm-products/bshell/ "bshell")**
 
 Login:
 

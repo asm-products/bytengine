@@ -9,7 +9,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/johnwilson/bytengine/client"
+	"github.com/asm-products/bytengine/client"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"
 )
